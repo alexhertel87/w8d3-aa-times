@@ -1,0 +1,48 @@
+.masthead {
+   display: grid;
+   /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.masthead__menu-and-search {
+   grid-column-start: 1;
+   grid-row-start: 1;
+}
+
+.masthead__actions {
+   grid-column-start: 3;
+   grid-row-start: 1;
+}
+
+.masthead__technologies {
+   grid-column-start: 2;
+   grid-row-start: 2;
+}
+
+.masthead__date {
+   grid-column-start: 1;
+   grid-row-start: 3;
+}
+
+.masthead__logo {
+   grid-column-start: 2;
+   grid-row-start: 3;
+}
+
+.masthead__paper {
+   grid-column-start: 3;
+   grid-row-start: 3;
+}
+
+.masthead__menu-and-search__bars,
+.masthead__menu-and-search__search {
+   font-size: 11px;
+   padding: 7px 9px;
+
+}
+
+.masthead__menu-and-search__bars:hover,
+.masthead__menu-and-search__search:hover {
+   font-size: 11px;
+   padding: 7px 9px;
+   background-color: #f7f7f5;
+}
